@@ -28,7 +28,8 @@ def main():
             print("player wins!")
         else:
             print("computer wins!")
-    except:
+    except ValueError as e:
+        print(f"Error {e}")
 
 
 # Run the game through the main function
